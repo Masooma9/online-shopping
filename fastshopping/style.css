@@ -1,0 +1,167 @@
+/*   General   */
+body{
+	font-family:sans-serif;
+}
+
+article img{
+	width:100%;
+}
+
+nav a{
+	color: #ffffff;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #000000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+/*   main   */
+#main{
+	width: 98%;
+	background: #FFF;
+	margin:0 auto;
+	padding: 10px;
+}
+
+#head{
+	position:relative;
+}
+
+#head hgroup{
+	position:absolute;
+	top:0;
+	left:0;
+} 
+
+#head hgroup h1,#head hgroup h2{
+	color: #ef6700;
+	margin:0;
+}
+
+#head hgroup h1{
+	font-size:30px;
+}
+
+#head hgroup h2{
+	font-size:20px;
+} 
+
+#head nav{
+	float:right;
+}
+
+#head nav ul{
+	margin:0;
+	padding:0;
+}
+
+#head nav ul li{
+	display: inline-block;
+	border: 2px solid #ef6700;
+	padding: 2px 15px;
+	text-align: center;
+	border-radius:4px;
+	background-color:#ef6700;	
+}
+
+
+/*Row-2 And  Slider*/
+.row2 {
+    margin-top: 33px;
+}
+
+/*Side Bar */
+.row2 #left_column {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+#left_column nav a{
+	color:#ef6700;
+}
+
+#left_column nav a:hover{
+    color: #000000;
+}
+
+#left_column nav ul li:hover {
+    color: blue;
+}
+
+#left_column nav ul li a {
+    vertical-align: -2px;
+}
+
+#left_column h2.title:before {
+    content: ">";
+
+}
+
+/*content*/
+.row2 #content {
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.row2 #content article {
+    border-bottom: 2px dashed #ddd ;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.row2 #content article time {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    padding: 5px 3px 0 10px;
+    font-size: 10px;
+    top: 0;
+    background-color: #DBE7F2;
+}
+
+.row2 #content article:last-child {
+    border-bottom: none !important;
+
+}
+
+/* footer */
+
+.row3 {
+    text-align:center;
+    color: #ffffff;
+    background-color: #ef6700;
+    margin-top: 20px;
+    border-top: 1px solide #EEE;
+    padding-top: 10px;
+    font-size: 13px;
+    position: relative;
+}
+
+.row3 a{
+    color: #000000;
+}
+
+.row3 footer#footer p {
+    margin: 0;
+    padding: 0;
+}
+.row3 img.goUp{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.row3 img.goUp:hover{
+    opacity: 0.5;
+}
